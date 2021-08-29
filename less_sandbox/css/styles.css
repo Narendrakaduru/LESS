@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #20B2AA;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(221, 88%, 29%);
+}
+.container {
+  background-color: #fff;
+  padding: 30px;
+}
+body {
+  background-color: #f4f4f4;
+}
+.btn,
+.btn-pri {
+  padding: 6px 12px;
+  border: 0px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+.btn-pri {
+  background-color: #20B2AA;
+  color: #fff;
+}
+.btn-pri:hover {
+  background-color: hsl(177, 70%, 51%);
+}
+.bordered {
+  border-top: 1px dotted #3b5998;
+  border-bottom: 1px solid #3b5998;
+}
+h4 {
+  border-top: 1px dotted #3b5998;
+  border-bottom: 1px solid #3b5998;
+  width: 120px;
+}
+.nav-main {
+  background-color: #dfe6f3;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.nav-main ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-main ul li {
+  display: flex;
+  background-color: #3b5998;
+  margin-right: 20px;
+}
+.nav-main ul li a {
+  color: #fff !important;
+  padding: 12px 60px;
+  text-align: center;
+}
+.nav-main ul li a:hover {
+  background-color: hsl(221, 44%, 31%);
+}
+@media screen and (orientation: landscape) {
+  .nav-main ul li {
+    display: flex;
+  }
+}
+@media screen and (orientation: portrait) {
+  .nav-main ul {
+    display: block;
+  }
+  .nav-main ul li {
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  .nav-main ul li a {
+    padding: 12px 44px;
+  }
+}
